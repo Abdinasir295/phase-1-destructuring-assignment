@@ -27,7 +27,59 @@ const nestedMuppet = {
 
 // Strings
 
-// 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+const {moo,neigh,baa,oink,cluck}= {
+  moo: "cow",
+  neigh: "horse",
+  baa: "sheep",
+  oink: "pig",
+  cluck: "chicken"  
+};  
+const {bessie,dolly,babe,little,}={ 
+  bessie:"cow", 
+  dolly:"sheep",  
+  babe:"pig", 
+  little:"chicken",
+} 
+const {blackAndWhite,black,pink}={  
+  blackAndWhite:"cow",  
+  black:"sheep",  
+  pink:"pig"
+} 
+const {red,orange,yellow,green,blue,indigo,violet}={  
+  red:"red",  
+  orange:"orange",  
+  yellow:"yellow",  
+  green:"green",  
+  blue:"blue", 
+  indigo:"indigo",  
+  violet:"violet",
+} 
+const {r,o,y,g,b,i,v}={ 
+  r:"red",  
+  o:"orange", 
+  y:"yellow", 
+  g:"green",  
+  b:"blue", 
+  i:"indigo", 
+  v:"violet"
+} 
+const{indg}={ 
+  indg:"indigo"
+} 
+const { muppetName, color, song, job, partner } = {
+  muppetName: "Miss Piggy",
+  color: "pink",
+  song: "Never Before, Never Again",
+  job: "Cast member of The Muppet Show",
+  partner: "Kermit"
+};
+
+const { song2, song4, nestedJob, nestedPartner } = {
+  song2: "Moving Right Along",
+  song4: "I Hope That Something Better Comes Along",
+  nestedJob: "Host of The Muppet Show",
+  nestedPartner: "Miss Piggy"
+};
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them bessie, dolly, babe, and little.
 
